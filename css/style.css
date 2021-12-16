@@ -96,12 +96,11 @@ h1 {
 
 .content {
     min-height: 600px;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     background: white;
     padding-right: 15px;
     padding-left: 15px;
-    color: grey;
 }
 
 b {
