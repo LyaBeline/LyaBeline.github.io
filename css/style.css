@@ -1,0 +1,135 @@
+body {
+    padding-left: 60px;
+    padding-right: 60px;
+    background: darkblue;
+}
+
+/*====================================== HEADER========================================*/
+/*====================================== HEADER========================================*/
+
+.header {
+    width: 100%;
+    background: url(../img/main/background.jpg) no-repeat center;
+    padding-top: 200px;
+    margin-bottom: 15px;
+}
+.dws-menu *{
+    margin: 0;
+    padding: 0;
+
+}
+.dws-menu ul,
+.dws-menu ol{
+    list-style: none;
+}
+
+.dws-menu > ul {
+    display: flex;
+    justify-content: center
+}
+
+.dws-menu > ul li a{
+    display: block;
+    background: darkblue;
+    padding: 15px 30px 15px 40px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.dws-menu > ul li {
+position: relative;
+border-right: 1px solid darkblue;
+}
+
+.dws-menu > ul li > a i.fa{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 18px;
+} 
+
+.dws-menu > ul li:first-child{
+    border-left: 1px solid darkblue;
+}
+
+.dws-menu > ul lu:last-child{
+    border-right: 1px solid darkblue;
+}
+
+.dws-menu li a:hover{
+    background: silver;
+    box-shadow: 1px 5px 10px -5px darkblue;
+    transition: all 0.2s ease;
+}
+
+.dws-menu li ul{
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.dws-menu li:hover > ul{
+    display: block;
+}
+
+.dws-menu li > ul li{
+    border: 1px
+}
+
+.dws-menu li > ul li a{
+    padding: 10px;
+    text-transform: none;
+}
+
+
+/*======================================END HEADER========================================*/
+/*======================================END HEADER========================================*/
+
+h1 {
+    font-family: 'Cinzel', serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    min-height: 600px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 20px;
+    background: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: grey;
+}
+
+b {
+    font-family: 'Lobster', cursive;
+}
+
+.liMain {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.image {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background: white;
+}
+
+.UDpage {
+    display: flex;
+    justify-content: center;
+}
+
+a { text-decoration: none; color: navy; }
+a:hover { text-decoration: none; }
